@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SimpleQuestions/static/css/main.3d58b1f4.css",
+    "main.js": "/SimpleQuestions/static/js/main.60647c8c.js",
+    "index.html": "/SimpleQuestions/index.html",
+    "main.3d58b1f4.css.map": "/SimpleQuestions/static/css/main.3d58b1f4.css.map",
+    "main.60647c8c.js.map": "/SimpleQuestions/static/js/main.60647c8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d58b1f4.css",
+    "static/js/main.60647c8c.js"
+  ]
+}
