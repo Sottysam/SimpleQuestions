@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: #330033;
+}
+
+.white {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  gap: 20px;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.ii {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.single {
+  flex-basis: 80%;
+}
+
+main{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: default;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .5);
+  cursor: pointer;
+}
+
+.ques {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ques p{
+  color: black;
+}
+
+main p{
+  color: rgb(75, 72, 72);
+  padding: 0px 10px;
+}
+
+.ion {
+  background-color: gainsboro;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: red;
+  font-size: 11px;
+}
+
+@media (max-width: 769px){
+  .white{
+    width: 90%;
+    flex-direction: column;
+  }
+  .ii{
+    font-size: 15px;
+  }
+  .ques p{
+    font-size: 15px;
+  }
+  main p{
+    font-size: 15px;
+  }
+}
